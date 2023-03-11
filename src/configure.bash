@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 # Makefile configuration script
 # This script is used to configure the Makefile for the C++ project.
 
