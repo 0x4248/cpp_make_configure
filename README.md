@@ -10,5 +10,5 @@ The Make file follows the same structure as the one in my [cpp_template](https:/
 
 ## Usage
 ```bash
-bash ./configure.sh
+bash ./configure.bash
 ```
