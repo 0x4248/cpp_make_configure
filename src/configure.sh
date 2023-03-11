@@ -176,20 +176,6 @@ if [ ! -s "CFLAGS.conf" ]; then
         echo "#CFLAGS += -Os" >> CFLAGS.conf
     fi
     echo "" >> CFLAGS.conf
-    echo "# Uncomment to enable optimization for code size" >> CFLAGS.conf
-    read -p "Enable optimization for code size? [y/N] " -n 1 -r
-    if [[ $REPLY =~ ^[Yy]$ ]]; then
-        echo ""
-        echo "CFLAGS += -Oz" >> CFLAGS.conf
-    else 
-        if [[ $REPLY =~ ^$ ]]; then
-            :
-        else
-            echo ""
-        fi
-        echo "#CFLAGS += -Oz" >> CFLAGS.conf
-    fi
-    echo "" >> CFLAGS.conf
     echo "# Uncomment to enable optimization for speed" >> CFLAGS.conf
     read -p "Enable optimization for speed? [y/N] " -n 1 -r
     if [[ $REPLY =~ ^[Yy]$ ]]; then
