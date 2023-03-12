@@ -371,7 +371,7 @@ if [ ! -s "Makefile" ]; then
     echo "	mkdir bin" >> Makefile
     echo "" >> Makefile
     echo "compile:" >> Makefile
-    echo "	\$(CC) \$(CFLAGS) -std=\$(STD) \$(SRC)/*.cpp -o \$(OUTPUT) -I \$(LIB)" >> Makefile
+    echo "	\$(CC) \$(CFLAGS) -std=\$(STD) \$(SRC)/main.cpp -o \$(OUTPUT) -I \$(LIB)" >> Makefile
     echo "" >> Makefile
     echo "run:" >> Makefile
     echo "	./\$(OUTPUT)" >> Makefile
