@@ -17,3 +17,6 @@ wget https://raw.githubusercontent.com/awesomelewis2007/cpp_make_configure/maste
 ```bash
 bash ./configure.bash
 ```
+
+## Licence
+This project is licenced under GPL-3.0. Please see [LICENCE](LICENCE) for details.
