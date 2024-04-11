@@ -2,7 +2,7 @@
 # Makefile configuration script
 # This script is used to configure the Makefile for the C++ project.
 # Licence: GNU General Public License v3.0
-# By: Lewis Evans
+# By: 0x4248
 
 echo "Welcome to the C++ Makefile configurator!"
 echo "This script will configure the Makefile for the C++ project."
